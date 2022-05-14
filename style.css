@@ -107,3 +107,23 @@ fieldset.grupo .campo {
     cursor: pointer;
 }
     
+
+@media screen and (max-width: 760px) {
+    body {
+        width: 90%;
+        text-align: center;
+       margin: 20px;
+    }
+   .botao {
+       position:absolute;
+       top: 100%;
+       left: 50%;
+   }
+
+   .campo select {
+       display: inline-block;
+       
+   }
+    
+}
+
